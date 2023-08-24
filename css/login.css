@@ -1,0 +1,23 @@
+.pic-usuario {
+  text-align: center; /* Centrar la imagen en la columna */
+}
+
+.pic-usuario img {
+  width: 100%; /* Asegurarse de que la imagen ocupe todo el ancho de su contenedor */
+  max-width: 300px; /* Ajustar el ancho máximo de la imagen */
+  border-radius: 10px; /* Ajustar el radio del borde para hacerlo menos ovalado */
+}
+
+.datos-usuario {
+  text-align: center; /* Centrar el texto en la columna */
+  color: antiquewhite;
+  padding: 20px; /* Añadir un espaciado interno para el contenido */
+}
+
+/* Centrar el contenido en el centro de la página */
+.container2 {
+  height: 100vh; /* Ajustar la altura del contenedor para ocupar toda la ventana */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

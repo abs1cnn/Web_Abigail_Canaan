@@ -1,0 +1,17 @@
+.pic-usuario {
+  position: relative;
+  width: 300px; /* Ajusta el ancho máximo */
+  height: 100px; /* Ajusta la altura máxima */
+  top: -180px; /* Mover la imagen 20px hacia abajo */
+  left: -160px; /* Mover la imagen 30px hacia la derecha */
+}
+
+@media only screen and (max-width: 1000px) {
+  .pic-usuario {
+    width: 50%;
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    top: 0; /* Elimina el desplazamiento vertical */
+    left: 0; /* Elimina el desplazamiento horizontal */
+    
+  }
+}

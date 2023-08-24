@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- tipos de caracteres -->
+        <meta charset="UTF-8">
+        <!-- titulo pagina -->
+        <title>Canaan Abigail Sara</title>
+        <!-- logo favicon -->
+        <link rel="shortcut icon" href="images/favicon.png">
+        <!-- archivos css -->
+        <link href="css/sobremi.css" rel="stylesheet">
+        <link href="css/proyectos.css" rel="stylesheet">
+        <!-- autor -->
+        <meta name="author" content="CanaanAbigail">
+        <!-- bootstrap -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body class="html1">
+      <header>
+        <nav class="nav">
+          <div class="container">
+              <div id="mainListDiv" class="main_list">
+                  <ul class="navlinks">
+                      <li><a class="navb" href="index.html">Inicio</a></li>
+                      <li><a class="navb" href="contacto.html">Contacto</a></li>
+                      <li><a class="navb" href="sobremi.html">Sobre mi</a></li>
+                      <li><a class="navb" href="proyectos.html">Proyectos</a></li>
+                      <li><a class="navb" href="login.html">Login</a></li>
+                  </ul>
+              </div>
+              <span class="navTrigger">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+              </span>
+          </div>
+        </nav>
+      </header>
+        
+        <div class="contenedor-proyectos">
+            <a href="#" class="proyecto">
+              <img src="images/desarrolloweb.jpg" alt="Desarrollo web">
+              <div class="overlay"></div>
+              <h3>Desarrollo web</h3>
+            </a>
+            <a href="#" class="proyecto">
+              <img src="images/webscraping.jpg" alt="WebScraping">
+              <div class="overlay"></div>
+              <h3>WebScraping</h3>
+            </a>
+            <a href="#" class="proyecto">
+                <img src="images/macros.jpg" alt="Macros Excel">
+                <div class="overlay"></div>
+                <h3>Macros Excel</h3>
+            </a>
+            <a href="#" class="proyecto">
+                <img src="imagen3.jpg" alt="Proyecto 2">
+                <div class="overlay"></div>
+                <h3>Proyecto 2</h3>
+              </a>
+            <a href="#" class="proyecto">
+                  <img src="imagen2.jpg" alt="Proyecto 2">
+                  <div class="overlay"></div>
+                  <h3>Proyecto 3</h3>
+            </a>
+            <a href="#" class="proyecto">
+                <img src="imagen2.jpg" alt="Proyecto 2">
+                <div class="overlay"></div>
+                <h3>Proyecto 3</h3>
+            </a>
+            <!-- Agrega los otros proyectos -->
+        </div>
+
+        <!-- Jquery needed -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/nav.js"></script>
+        <script>
+
+          $(window).scroll(function() {
+              if ($(document).scrollTop() > 50) {
+                  $('.nav').addClass('affix');
+                  console.log("OK");
+              } else {
+                  $('.nav').removeClass('affix');
+              }
+          });
+        </script>
+
+    </body>
+</html>
